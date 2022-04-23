@@ -1,0 +1,52 @@
+/* nab start */
+.nab-bar{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+.logo{
+    margin-left:35%;
+    margin-top: 0px;
+}
+.nab-heading{
+    margin: 0%;
+    padding: 0%;
+}
+.nab-heading:hover{
+    text-shadow: 1px 3px 5px black;
+}
+.nab-links{
+    
+    margin-bottom: 10px;
+    margin: 5px;
+    
+}
+.nab-links  a{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 55, 55);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 100px;
+    font-size: large;
+
+}
+.nab-links  a:hover{
+    border:;
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 100px;
+}
+/* nab end */
+
+.about-me-profile{
+    flex-direction: column;
+    padding: 15px;
+}
+.about-me-image{
+    padding: 20%;
+    margin-left: 10%;
+}

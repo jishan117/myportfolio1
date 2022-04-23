@@ -1,0 +1,123 @@
+/* nab start */
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.nab-bar{
+    
+    background-color: rgb(35, 138, 235);
+}
+.logo{
+    border-radius: 50%;
+    width: 100px;
+    padding-top: 5px;
+    transform: rotate();
+}
+.logo:hover{
+    rotate:;
+}
+.nab-heading{
+    color: white;
+    
+}
+.nab-links a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* nab end */
+
+.nab-bar::after{
+    clear:both;
+    content: ;
+    }
+
+.profile{
+    text-align: center;
+    position: relative;
+    background-color: rgb(23, 23, 58);
+    padding: 15px;
+    color: white;
+
+}
+
+.top-icon  > img{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 2s;
+}
+.top-icon  > img:hover{
+    transform: rotate(360deg);
+}
+
+.profile-heading{
+    margin-top: 0px;
+}
+.bottom-icon  > img{
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: px;
+    transition: 2s;
+}
+.bottom-icon  > img:hover{
+    transform: rotate(360deg);
+}
+.profile::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* about me start*/
+.about-me-heading{
+    background-color: rgb(3, 189, 189);
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.about-me-heading hr{
+    border: dotted white;
+    width: 200px;
+    margin-bottom: 0%;
+}
+.about-me-profile p{
+    text-shadow: 4px 1px 15px black;
+}
+.about-me-profile{
+    background-color: rgb(3, 189, 189);
+    padding-top: 5px;
+    display: flex;
+    color: white;
+}
+.about-me-image{
+    padding: 10px;
+    
+}
+
+.about-me-image img{
+    border-radius: 100px;
+    p;
+}
+
+.about-me-profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.footer{
+    background-color: rgb(97, 95, 95);
+    margin: 0%;
+    width: 100%;
+    
+    text-align: center;
+    color: aliceblue;
+    margin-top: 0%;
+    padding: 50px;
+}
+
+/*about me end*/
